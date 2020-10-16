@@ -5,7 +5,7 @@
      entry: './js/main.js',
      output: {
          path: path.resolve(__dirname, 'build'),
-         filename: 'main.bundle.js'
+         filename: '[name].[fullhash].bundle.js'
      },
      module: {
         rules: [
