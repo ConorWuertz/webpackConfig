@@ -1,8 +1,12 @@
-import react from "react"
+import React from "react"
 
 
-function DummyComponent() {
-    return <div>Hello world</div>
+class DummyComponent extends React.Component {
+
+    render() {
+        console.log("dummy component rendered")
+        return <div>Hello world</div>
+    }
 }
 
 export default DummyComponent;
