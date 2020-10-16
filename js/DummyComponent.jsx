@@ -4,8 +4,8 @@ import React from "react"
 class DummyComponent extends React.Component {
 
     render() {
-        console.log("dummy component rendered")
-        return <div>Hello world</div>
+
+        return <div className="dummyComponent">Hello world</div>
     }
 }
 
