@@ -1,0 +1,23 @@
+{
+  "name": "webpackconfig",
+  "version": "1.0.0",
+  "description": "Practicing webpackkking",
+  "main": "main.js",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConorWuertz/webpackConfig.git"
+  },
+  "author": "Conor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ConorWuertz/webpackConfig/issues"
+  },
+  "homepage": "https://github.com/ConorWuertz/webpackConfig#readme",
+  "devDependencies": {
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0"
+  }
+}
